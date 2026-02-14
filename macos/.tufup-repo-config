@@ -1,0 +1,34 @@
+{
+    "app_name": "QuoteCrafter",
+    "app_version_attr": null,
+    "binary_diff": null,
+    "encrypted_keys": [],
+    "expiration_days": {
+        "root": 365,
+        "snapshot": 180,
+        "targets": 180,
+        "timestamp": 180
+    },
+    "key_map": {
+        "root": [
+            "quotecraft_key"
+        ],
+        "snapshot": [
+            "quotecraft_key"
+        ],
+        "targets": [
+            "quotecraft_key"
+        ],
+        "timestamp": [
+            "quotecraft_key"
+        ]
+    },
+    "keys_dir": "/Users/andrew/IT/Projects/QuoteCrafter-Keys/keystore",
+    "repo_dir": "/Users/andrew/IT/Projects/QuoteCrafter-Releases/macos",
+    "thresholds": {
+        "root": 1,
+        "snapshot": 1,
+        "targets": 1,
+        "timestamp": 1
+    }
+}
