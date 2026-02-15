@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6",
+   "sig": "12a0818460568be1530f4132f56b27cb229c3d669e4c1e9e2167581bc9561aa5e5224e14c6c802dbceed5862a8c09bc5975e6af7b80982b9f4ff3e485883950c"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2026-08-14T11:56:24Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "QuoteCrafter-1.2.5.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "8f4155ed55b7f1a368f69a2d089477521e2d55458a99c205ce4572dc5d11d7bf"
+    },
+    "length": 74276146
+   }
+  },
+  "version": 2
+ }
+}

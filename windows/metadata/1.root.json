@@ -1,0 +1,50 @@
+{
+ "signatures": [
+  {
+   "keyid": "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6",
+   "sig": "820c286b539aa1568a6faee467b4915ec1a2a53859e4351d8f8124ea6bb7aaa4a7dfb1951e5c5e2c008a00a4d52d920faff3f092d6678395aa9ac63c5bebe90e"
+  }
+ ],
+ "signed": {
+  "_type": "root",
+  "consistent_snapshot": false,
+  "expires": "2027-02-15T11:43:34Z",
+  "keys": {
+   "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6": {
+    "keytype": "ed25519",
+    "keyval": {
+     "public": "6ea8352b5d2b7aa42abe77d326c1b6cfd600e89d6e38138f09a7fe0b73daa48c"
+    },
+    "scheme": "ed25519"
+   }
+  },
+  "roles": {
+   "root": {
+    "keyids": [
+     "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6"
+    ],
+    "threshold": 1
+   },
+   "snapshot": {
+    "keyids": [
+     "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6"
+    ],
+    "threshold": 1
+   },
+   "targets": {
+    "keyids": [
+     "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6"
+    ],
+    "threshold": 1
+   },
+   "timestamp": {
+    "keyids": [
+     "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6"
+    ],
+    "threshold": 1
+   }
+  },
+  "spec_version": "1.0.31",
+  "version": 1
+ }
+}
