@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6",
-   "sig": "b0813f3f6fa43b544cb59b83fb1b71c96cb4cd5b3a13b24ebfb81fb246e0a63786d1631fd4637b3f6b7de42be29b496dfc1c221ba7b38c19a930bfeb4cb0cc0a"
+   "sig": "211069d9ce1708e3a62ca82a9c28c548d9f1a8db6e2780ea71a71ef26a48f5d7bcea323f2c59025339873d418a4b9ea4cfd46a7072ed160894b007909d3f490e"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-08-14T12:28:32Z",
+  "expires": "2026-08-21T09:40:19Z",
   "spec_version": "1.0.31",
   "targets": {
    "QuoteCrafter-1.2.5.tar.gz": {
@@ -47,8 +47,34 @@
      "sha256": "efaf38c815dd8f26d0e71023e8ab8f38576f389495c951562cb9e0353f877619"
     },
     "length": 74271647
+   },
+   "QuoteCrafter-1.2.7.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "62bb704bac7ebd4ddad50a8a7d398a4adace92a7b702b71f6140ddda7f07b864",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 181360640
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "641c6ad81a283efd2a025d01d7c0eb73c1e75fee12af0dc66cee1dcbc43af730"
+    },
+    "length": 490761
+   },
+   "QuoteCrafter-1.2.7.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "6bdf698458646f3f9a8ded9a54c1feedc09a1822c9d64cdfc75527cb3453792a"
+    },
+    "length": 74314129
    }
   },
-  "version": 3
+  "version": 4
  }
 }
