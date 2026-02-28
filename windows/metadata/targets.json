@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6",
-   "sig": "1eae32053cc2809480f9c7e9b985ef555f016a9a49fbea19953a4b939c24a64ce88bbca6fe45a233db1755990ca023e053346de69f784e0786368fec51870d0a"
+   "sig": "3e29b081090b118187fa63fd2d450ea7b7a073ac80d922fa2947ffeb3b35178292e24162a65aa5b79335735223ec05264ac7ed51bd339dc926fbf41f4591af0c"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-08-21T15:32:09Z",
+  "expires": "2026-08-27T12:21:44Z",
   "spec_version": "1.0.31",
   "targets": {
    "QuoteCrafter-1.2.13.patch": {
@@ -47,60 +47,8 @@
      "sha256": "8f4155ed55b7f1a368f69a2d089477521e2d55458a99c205ce4572dc5d11d7bf"
     },
     "length": 74276146
-   },
-   "QuoteCrafter-1.2.6.patch": {
-    "custom": {
-     "tufup": {
-      "tar_hash": "6fcf33d43d74e84b5e1b1c408b9c5f0edcbb8b468d990e8143cb54e3ee75cddd",
-      "tar_hash_algorithm": "sha256",
-      "tar_size": 181340160
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "41e1127f8b4bc356ca7597d350f8afb34ea2951de546f0b409bd552f8227c67c"
-    },
-    "length": 4995
-   },
-   "QuoteCrafter-1.2.6.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "efaf38c815dd8f26d0e71023e8ab8f38576f389495c951562cb9e0353f877619"
-    },
-    "length": 74271647
-   },
-   "QuoteCrafter-1.2.7.patch": {
-    "custom": {
-     "tufup": {
-      "tar_hash": "62bb704bac7ebd4ddad50a8a7d398a4adace92a7b702b71f6140ddda7f07b864",
-      "tar_hash_algorithm": "sha256",
-      "tar_size": 181360640
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "641c6ad81a283efd2a025d01d7c0eb73c1e75fee12af0dc66cee1dcbc43af730"
-    },
-    "length": 490761
-   },
-   "QuoteCrafter-1.2.7.tar.gz": {
-    "custom": {
-     "tufup": {
-      "required": false
-     },
-     "user": null
-    },
-    "hashes": {
-     "sha256": "6bdf698458646f3f9a8ded9a54c1feedc09a1822c9d64cdfc75527cb3453792a"
-    },
-    "length": 74314129
    }
   },
-  "version": 5
+  "version": 6
  }
 }
