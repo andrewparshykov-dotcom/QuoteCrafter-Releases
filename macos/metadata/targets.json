@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "028ad1e0e0e9212ecc7d83ff81aba58da1f17c1abc0b9525112d7ac21b1811d6",
-   "sig": "42f2052c374effc43f9e5dfae403275173de8ae110d6536b89086a710ae69f105c5a9ef79744cd600dad76daa005a3a3007c6abba78e3d73bb9c1279d4b7e503"
+   "sig": "3d399fe761fa1b21539e587336100e61a696288dbff8cce0297aa8e72bc368f98d4b144eb9437ed676f8d82256daf44fe3d0d7b7d55d051d87b5d99a97ba8a07"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2026-09-13T09:24:37Z",
+  "expires": "2026-09-14T08:32:51Z",
   "spec_version": "1.0.31",
   "targets": {
    "QuoteCrafter-1.0.9.tar.gz": {
@@ -346,6 +346,58 @@
     },
     "length": 77010261
    },
+   "QuoteCrafter-1.2.18.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "ac4d34dfa7e428a207c3072e981721b74a7488d296072b0170fda793d04dc140",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 210554880
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "e197c9fb72d9f1aa110e4821425815ef78c45fccd0b84d4e8df43e0a80433a91"
+    },
+    "length": 368565
+   },
+   "QuoteCrafter-1.2.18.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "4474b83507c2c65522527e32f57888a9edf6dbacf1beadf1820af16b349f603a"
+    },
+    "length": 77008540
+   },
+   "QuoteCrafter-1.2.19.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "70e114886c41488864c633cbad1185311ac969ccea4faa96078373e2c44de362",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 210554880
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "1dca9ffb78a7d243acc871a1f5cba362f2c074048f4c3c73ca2770252cdfa50e"
+    },
+    "length": 349778
+   },
+   "QuoteCrafter-1.2.19.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "76853d0205f41e7a003e0ac7eaaf1357ee5e795e278021e6899725d90a3172ee"
+    },
+    "length": 77011922
+   },
    "QuoteCrafter-1.2.2.patch": {
     "custom": {
      "tufup": {
@@ -451,6 +503,6 @@
     "length": 76927582
    }
   },
-  "version": 27
+  "version": 29
  }
 }
